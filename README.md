@@ -1,7 +1,8 @@
 # LAMBDA TEST IN CI PIPELINE
 
-How to test LAMBDA function in a CI pipeline? A simple solution using DGoss and TravisCI.
+[![CI](https://travis-ci.com/vittorio-nardone/lambda-test-CI-pipeline.svg?branch=master)](https://travis-ci.com/vittorio-nardone/lambda-test-CI-pipeline)
 
+How to test LAMBDA function in a CI pipeline? A simple solution using DGoss and TravisCI.
 
 ## Prerequisite
 
