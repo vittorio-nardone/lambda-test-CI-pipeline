@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  lambda:
+    build: .
+    image: lambda-test-ci-pipeline_lambda:latest
+    environment:
+      - PYTHONPATH=/var/task/src:/var/task/lib
+    volumes:
+      - ./src/:/var/task/src/
+      - ./tmp/:/tmp/
