@@ -1,23 +1,14 @@
 file:
   /var/task/src/lambda_function.py:
     exists: true
-    mode: "0644"
-    owner: root
-    group: root
     filetype: file
     contains: []
   /var/task/test/test-event.json:
     exists: true
-    mode: "0644"
-    owner: root
-    group: root
     filetype: file
     contains: []
   /var/task/test/test-script.sh:
     exists: true
-    mode: "0755"
-    owner: root
-    group: root
     filetype: file
     contains: []
 command:
