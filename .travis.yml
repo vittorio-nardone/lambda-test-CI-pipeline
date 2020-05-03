@@ -1,0 +1,13 @@
+sudo: required
+dist: trusty
+
+services:
+- docker
+
+before_install:
+# install goss
+- curl -L https://goss.rocks/install | sudo sh
+- make docker-build
+
+script:
+- make lambda-test-run

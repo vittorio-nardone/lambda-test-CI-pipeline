@@ -5,7 +5,7 @@ clean:
 
 ## create Docker image with requirements
 docker-build:		
-	docker-compose build 
+	docker build . -t lambda-test-ci-pipeline_lambda:latest
 
 ## run "src.lambda_function.lambda_handler" with docker-compose
 ## mapping "./tmp" and "./src" folders. 

@@ -1,6 +1,6 @@
 # LAMBDA TEST IN CI PIPELINE
 
-How to test LAMBDA function in a CI pipeline? A simple solution using DGoss and CircleCI.
+How to test LAMBDA function in a CI pipeline? A simple solution using DGoss and TravisCI.
 
 
 ## Prerequisite
