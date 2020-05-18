@@ -4,6 +4,8 @@
 
 How to test LAMBDA function in a CI pipeline? A simple solution using [Goss](https://goss.rocks) and [TravisCI](https://travis-ci.com/).
 
+Read full article [https://www.vittorionardone.it/en/2020/05/20/build-aws-lambda-ci-pipeline-with-goss-and-travisci/](https://www.vittorionardone.it/en/2020/05/20/build-aws-lambda-ci-pipeline-with-goss-and-travisci/)
+
 ## Prerequisite
 
 * Install [DGoss](https://github.com/aelsabbahy/goss/tree/master/extras/dgoss) to test your lambda code locally.
